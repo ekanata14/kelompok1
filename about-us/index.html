@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok 1</title>
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+        v2.0 | 20110126
+        License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* STYLES */
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body, html{
+            width: 100%;
+            height: 100%;
+            background-image: url(background.jpg);
+            background-size: cover;
+            position: relative;
+        }
+
+        a{
+            text-decoration: none;
+            color:teal;
+            transition: all 0.2s;
+        }
+
+        a:hover{
+            color:orange;
+        }
+
+        .content-container{
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            width: 100%;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.8);
+            height: 700px;
+            margin:auto;
+            border-radius: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            overflow: hidden;
+        }
+
+        .content-container h1{
+            position: relative;
+            text-align: center;
+            font-size: 40px;
+            padding: 20px 0;
+            animation: animasijudul 2s infinite;
+        }
+
+        .content-team{
+            padding:30px 40px;
+            cursor: pointer;
+        }
+
+        .content-team img{
+            width: 150px;
+            height: 120px;
+            object-fit:cover;
+            object-position:20% 10%;
+            float: left;
+            margin-right: 10px;
+            border-radius: 30px;
+        }
+
+        @keyframes animasijudul{
+            0%{
+                top:0px;
+            }
+
+            50%{
+                top:20px;
+            }
+
+            100%{
+                top:0px;
+            }
+        }
+
+        .content-team h2{
+            font-size: 20px;
+            padding-bottom: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="content-container">
+            <div class="content">
+                <h1>Our Team</h1>
+                <div class="content-team">
+                    <img src="Gambar_2.jpg" alt="gambar-1">
+                    <h2>Eka Pradipa Nata</h2>
+                    <p>My name is Eka Pradipa Nata, I'm the one of the students at SMKN 1 Denpasar. My mayor is Rekayasa Perangkat Lunak that studies programming, software, and web development. This is my github <a href="https://github.com/ekanata14" target="_blank">Nata's Github</a>.</p>
+                </div>
+                <div class="content-team">
+                    <img src="Gambar_3.jpg" alt="gambar-1">
+                    <h2>Ken Jayakusuma</h2>
+                    <p>My name is Ken Jayakusuma, I'm the one of the students at SMKN 1 Denpasar. My mayor is Rekayasa Perangkat Lunak that studies programming, software, and web development. This is my github <a href="https://github.com/KenJaya270n" target="_blank">Ken's Github</a>.</p>
+                </div>
+                <div class="content-team">
+                    <img src="Gambar_1.jpg" alt="gambar-1">
+                    <h2>Adam Dennys</h2>
+                    <p>My name is Adam Dennys, I'm the one of the students at SMKN 1 Denpasar. My mayor is Rekayasa Perangkat Lunak that studies programming, software, and web development. This is my github <a href="https://github.com/AdamDennys207" target="_blank">Adam's Github</a>.</p>
+                </div>
+                <div class="content-team">
+                    <img src="1.jpg" alt="gambar-1">
+                    <h2>Ridho Chrisitan Sanjaya</h2>
+                    <p>My name is Ridho Christian Sanjaya, I'm the one of the students at SMKN 1 Denpasar. My mayor is Rekayasa Perangkat Lunak that studies programming, software, and web development. This is my github <a href="https://github.com/ekanata14" target="_blank">Ridho's Github</a>.</p>
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
