@@ -162,6 +162,13 @@ header{
     background-color: white;
 }
 
+.past-tense{
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding:50px;
+    background-color: white;
+}
+
 .content{
     margin-top: 50px;
 }
