@@ -149,6 +149,19 @@ header{
     margin:0 auto;
 }
 
+.simple-present{
+    border-radius: 30px;
+    padding:50px;
+    background-color: white;
+}
+
+.continous{
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding:50px;
+    background-color: white;
+}
+
 .content{
     margin-top: 50px;
 }
@@ -168,6 +181,10 @@ header{
     font-size: 19px;
 }
 
+.content strong{
+    font-weight: bold;
+}
+
 .content ol{
     margin-bottom: 20px;
 }
@@ -183,4 +200,8 @@ header{
     background-color: white;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.content .continous{
+    height: 350px;
 }
